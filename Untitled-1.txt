@@ -1,0 +1,33 @@
+
+
+ <i class="fa-solid fa-video"></i>
+          <h2>HTML5 Video</h2>
+          <p>Lorem ipsum dolor sit ametconsec tetur adipisicing elit.            </p>
+        
+            
+          <!-- new -->
+          <div class="sec2" >
+        <i class="fa-solid fa-rotate"></i>
+          <h2>Endless Possibilities            </h2>
+          <p>Lorem ipsum dolor sit ametconsec tetur adipisicing elit.            </p>
+          
+          <!-- space -->
+
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h2>Documentations      </h2>
+          <p>Lorem ipsum dolor sit ametconsec tetur adipisicing elit.
+
+          </p>
+        </div>
+
+        <!-- new -->
+
+          <div class="sec3">
+            <i  class="fa-solid fa-tv"></i>
+            <h2>Retina Ready Graphics</h2>
+            <p>Lorem ipsum dolor sit ametconsec tetur adipisicing elit.</p>                                                                       
+
+              <!-- space -->
+              <i class="fa-solid fa-book"></i>
+              <h2>Boxed & Wide Layouts                </h2>
+              <p>Lorem ipsum dolor sit ametconsec tetur adipisicing elit.</p>
