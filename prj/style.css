@@ -1,0 +1,443 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    color: #777777;
+    background:#f67590;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    position: relative
+}
+ 
+
+.container {
+    width:90%;
+    height:100%;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:20px;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #f66483;
+}
+ 
+.lnr {
+   width:100px;
+   color:white;
+   background-color:none
+}
+
+nav {
+     
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav .fa-solid {
+    font-size:20px;
+    color:white
+}
+.every {
+  display: flex;   
+   justify-content: center;
+}
+@media (max-width:713px) {
+    .every {
+        flex-direction: column;
+    }
+    .every .txt-every h1 {
+       font-size: 20px;
+    }
+
+ }
+
+ @media (min-width:992px) {
+    .every {
+        flex-direction: none;
+    }
+ }
+.every .txt-every {
+ font-size:14px;
+ color: white;
+ transform: translateY(120px);
+ 
+}
+
+@media (max-width: 767px) {
+   .every .txt-every {
+    transform: none;
+}
+}
+
+.txt-every h1 {
+    line-height: 1.45;
+    width: 260px;
+    font-weight: 600
+}
+.every .txt-every  .n {
+    width:170px;
+    height:40px;
+    border-radius: 30px;
+    background-color: white;
+    border: white;
+}
+ 
+.every .txt-every .n:hover {
+    background-color: #f66483;
+    border: white solid 2px;
+     transition-duration: 0.55s
+}
+
+.imma {
+    max-width:100%;
+    height:auto;
+}
+.every img{
+ 
+ vertical-align:middle
+  }
+
+/* End beauty girl  */
+
+.photos {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+ 
+}
+ 
+.photos .container {
+    background-color: white;
+    width:90%;
+    margin-top:0px;
+     display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+@media (max-width:767px) {
+.photos .container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+ } 
+
+.photos .container .p1,.p2,.p3, .txta + p {
+    display: flex;
+ 
+}    
+.photos .container .p1,.p2,.p3, .txta {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+}
+@media (max-width:500px) {
+    .every .imma img {
+        width:100%;
+    }
+ 
+}
+
+.photos .p1,.p2,.p3, img {
+    height:100%
+} 
+
+.photos .container .p1,.p2,.p3, .txta h2 {
+    color:black
+ }
+
+.photos .container .p1,.p2,.p3, .txta + p {
+    display: flex;
+    color:#777777
+}
+
+.photos  a{
+    text-decoration: none;
+    color:black
+}
+
+
+/* mountines */
+
+.mounfather .container {
+    display: flex;
+    margin-top:-20px;
+    padding-left:1px;
+  }
+.t-ofM1 {
+    background:url(/images/oa1.jpg.jpg);
+    background-repeat: no-repeat;
+    height:500px;
+    max-width:500px;
+    margin-left: -9px;    
+  
+ }
+
+
+.t-ofM2 {
+    background:url(/images/oa2.jpg.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    max-width:500px;
+    margin-right: -22px;
+     
+ }
+
+.mounfather .container  .t-ofM1, .t-ofM2,  h1 + p {
+  color:white;
+  text-align: center;
+  padding-top: 90px;
+
+  
+} 
+ 
+
+
+/* start boys */
+.boys {
+    display: grid;
+
+    
+ 
+}
+.boys .container  {
+    position: relative;
+    background-color:white;
+    margin-top:0
+ }
+.boys .container .boy-1{
+    background-color: white;
+   
+    padding-left: 10px;
+    padding-top: 20px;
+    
+ }
+.boys .container .boy-1 img {
+    max-width: 100%;
+
+ }
+
+
+ 
+.boys .container .boy-1 img:nth-child(2) {
+    max-width: 250px;
+    height:250px
+
+ }
+
+
+ 
+@media (max-width:951px) {
+    
+    .boys .container .boy-1 img:nth-child(2) {
+        max-width: 200%;
+        height:250px
+
+    }
+    .boys .container .boy-1 {
+        display: block;
+        overflow: hidden;
+    }
+    
+}
+/* end boys */
+
+/* 
+
+.scrtr {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+ 
+
+.scrtr .container{
+ background-color: white;
+
+}
+
+
+.scrtr p{
+    color:red;
+    width:200px;
+    height:200px
+}
+
+.scrtr i {
+ text-align: center;
+ 
+
+
+}
+.scrtr .sec1 i {
+    color: pink;
+    font-size: 25px;
+    background-color:#fff;
+   
+   
+  }
+
+.scrtr .sec2 i {
+    color: pink;
+    font-size: 25px;
+    background-color:#fff
+  }
+.scrtr .sec3 i {
+    color: pink;
+    font-size: 25px;
+    background-color:#fff
+  } */
+
+.idon {
+    position: relative;
+    
+}  
+
+.idon i {
+    color:#f66483;
+    background-color: #fff;
+    font-size: 25px;
+}
+.idon h2 {
+    color:black;
+    
+}
+
+
+.idon .container {
+    background-color: white;
+    margin-right: 35px;
+    margin-top:-1px;
+    padding-top:250px
+
+}
+
+.idonsons {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* end */
+
+.sitting {
+ 
+}
+.sitting .container {
+    background-color: white;
+    margin-right: 35px;
+    margin-top:-1px;
+    padding-top:250px;
+   
+}
+.pala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+ }
+.pala img {
+  max-width:60%
+}
+
+.sitting .container .nos h2 {
+   color:black
+ }
+.sitting .container .nos  {
+    padding-left: 20px;
+
+ }
+
+@media (max-width:660px) {
+    .pala {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+
+ }
+
+ .pala img {
+    padding-left: 100px;
+ }
+ 
+}
+
+/* start footer */
+.foot {
+    display:grid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+     
+
+}
+.foot .تفاحة {
+  color: white;
+  text-align: center;
+  
+}
+.foot .تفاحة h2{
+ font-size: 25px;
+}
+.foot .تفاحة h3{
+color:#c9c3c3
+}
+.foot .تفاحة h2{
+ font-size: 25px;
+}
+
+.foot .تفاحة input {
+   border-radius: 25px;
+    width: 50%;
+    line-height: 3;
+    padding-right: 90px;
+    position: relative;
+  
+  }
+
+.foot .تفاحة span {
+  position: absolute;
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  z-index: 99;
+  border-radius: 75px;
+  background-color:palevioletred;
+  transform: translateX(-110%);
+    
+ 
+  
+ 
+ }
+
+ 
+/* end footer */
+
+.copyright {
+
+    background-image: url(/images/f-bg.jpg.jpg);
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom:59px;
+    padding-top:150px;
+    text-align: center;
+    color:white
+}
+
+.copyright .linkss {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color:white
+}
+
+.copyright .linkss a {
+    color:white;
+    padding-left: 15px;
+}
